@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>10.Dom css</title>
+<style>
+.highlight {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+<button onclick="addHighlight()">Add Highlight</button>
+<p id="paragraph">Why do Java programmers have to wear glasses? Because they don't C# </p>
+<script>
+function addHighlight() {
+  document.getElementById("paragraph").classList.add("highlight");
+}
+</script>
+</body>
+</html>
