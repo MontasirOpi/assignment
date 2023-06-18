@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>1Data object</title>
+</head>
+<body>
+<h1>Get Day of Week</h1>
+<p>The day of the week for today is: <span id="dayOfWeek"></span></p>
+<script src="DataObject.js"></script>
+<script>
+const dayOfWeek = getDayOfWeek(new Date());
+document.getElementById("dayOfWeek").innerHTML = dayOfWeek;
+</script>
+</body>
+</html>
